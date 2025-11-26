@@ -53,7 +53,7 @@ If you use my other mod City Watch Specialist Rework, they will also be added in
 ## Total Number of Specialists at each Trader
 |Trader|Amount|
 |-----|-----|
-|Valiera|25|
+|Valeria|25|
 |The Procurator|50|
 |Diana|69|
 |Manx|59*|
