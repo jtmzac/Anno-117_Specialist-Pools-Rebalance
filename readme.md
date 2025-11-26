@@ -52,6 +52,7 @@ If you use my other mod City Watch Specialist Rework, they will also be added in
 
 ## Total Number of Specialists at each Trader
 |Trader|Amount|
+|-----|-----|
 |Valiera|25|
 |The Procurator|50|
 |Diana|69|
@@ -59,7 +60,7 @@ If you use my other mod City Watch Specialist Rework, they will also be added in
 
 \* Manx has 68 if City Watch Specialist Rework is installed
 
-# Future Comaptibility
+# Future Compatibility
 This mod is not going to be useful in future unless it is manually updated with new specialists and probably new traders.
 
 I spent hours identifying, extracting, categorising and then analysing and curating all these specialists manually and I cannot promise I will want to do that multiple times again in the future as updates and DLC is added.
