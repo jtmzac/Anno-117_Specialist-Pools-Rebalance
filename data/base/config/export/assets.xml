@@ -1,0 +1,405 @@
+<!-- Overhaul of item pools given by npc traders valeria/diana/manx/procurator
+All military and military ship items now at procurator. Civilian ship items at Valeria. Remaining items split between diana and manx
+Removed all productivity and maintanence items of common and rare rareties because they're of limited use. Epic versions are still available
+Removed all "area" specialists because slight buffs like +1 fire safety to a specific production building's radius that is also in range of an officium simply isn't worth a slot
+Overall half of common and rare civilian items removed, around a third of civilian epics removed
+All ship and military items remain available -->
+
+
+
+<!-- I have left the specialist lists I made from the original gamefiles for anyone who comes across this in future. Same with my reference notes below -->
+
+<!-- personal reference notes: -->
+<!-- npc rivals (dorian etc.) item trades are linked to the "any common", rare, epic legendary pools. These pools are quite limited  -->
+<!-- npc traders and pirates have specific pools with more items than the "any pools" -->
+<!-- There is some difference in the pirate pools e.g. caeso has 2 more epics than the latium any epic pool -->
+<!-- for each region combine the any, any of that region, trader 1, trader 2 and pirate pools to get a mostly full list of specialists-->
+<!-- I did notice some things still missing and some specialists in regions that didn't make sense -->
+<!-- There are legendary specialists from defeating/conquering each rival and another separate pool from research that I have not included -->
+
+<ModOps>
+  <!-- Diana -->
+  <ModOp Type="remove" GUID="83460" Path="/Values/RewardPool/ItemsPool"/>
+  <ModOp Type="merge" GUID="83460" Path="/Values/RewardPool">
+    <ItemsPool>
+      <Item><ItemLink>51826</ItemLink></Item>
+      <Item><ItemLink>51853</ItemLink></Item>
+      <Item><ItemLink>51851</ItemLink></Item>
+
+      <Item><ItemLink>106631</ItemLink></Item>
+      <Item><ItemLink>106636</ItemLink></Item>
+
+      <Item><ItemLink>64944</ItemLink></Item>
+      <Item><ItemLink>64950</ItemLink></Item>
+      <Item><ItemLink>64951</ItemLink></Item>
+      <Item><ItemLink>64954</ItemLink></Item>
+
+      <Item><ItemLink>106410</ItemLink></Item>
+    </ItemsPool>
+  </ModOp>
+
+  <ModOp Type="remove" GUID="83461" Path="/Values/RewardPool/ItemsPool"/>
+  <ModOp Type="merge" GUID="83461" Path="/Values/RewardPool">
+    <ItemsPool>
+      <Item><ItemLink>51835</ItemLink></Item>
+      <Item><ItemLink>51857</ItemLink></Item>
+      <Item><ItemLink>51833</ItemLink></Item>
+      <Item><ItemLink>51859</ItemLink></Item>
+      <Item><ItemLink>51877</ItemLink></Item>
+      <Item><ItemLink>51879</ItemLink></Item>
+
+      <Item><ItemLink>140338</ItemLink></Item>
+      <Item><ItemLink>140355</ItemLink></Item>
+      <Item><ItemLink>140388</ItemLink></Item>
+      <Item><ItemLink>140407</ItemLink></Item>
+
+      <Item><ItemLink>92876</ItemLink></Item>
+      <Item><ItemLink>92878</ItemLink></Item>
+
+      <Item><ItemLink>106644</ItemLink></Item>
+      <Item><ItemLink>106648</ItemLink></Item>
+
+      <Item><ItemLink>106412</ItemLink></Item>
+      <Item><ItemLink>106397</ItemLink></Item>
+    </ItemsPool>
+  </ModOp>
+
+  <ModOp Type="remove" GUID="83462" Path="/Values/RewardPool/ItemsPool"/>
+  <ModOp Type="merge" GUID="83462" Path="/Values/RewardPool">
+    <ItemsPool>
+      <Item><ItemLink>44089</ItemLink></Item>
+      <Item><ItemLink>44114</ItemLink></Item>
+      <Item><ItemLink>44149</ItemLink></Item>
+
+      <Item><ItemLink>51321</ItemLink></Item>
+      <Item><ItemLink>51326</ItemLink></Item>
+      <Item><ItemLink>51332</ItemLink></Item>
+      <Item><ItemLink>51340</ItemLink></Item>
+      <Item><ItemLink>51342</ItemLink></Item>
+
+
+      <Item><ItemLink>51849</ItemLink></Item>
+      <Item><ItemLink>51867</ItemLink></Item>
+      <Item><ItemLink>51843</ItemLink></Item>
+      <Item><ItemLink>51875</ItemLink></Item>
+      <Item><ItemLink>51881</ItemLink></Item>
+      <Item><ItemLink>51883</ItemLink></Item>
+      <Item><ItemLink>51887</ItemLink></Item>
+      <Item><ItemLink>51889</ItemLink></Item>
+      <Item><ItemLink>42056</ItemLink></Item>
+
+      <Item><ItemLink>42055</ItemLink></Item>
+      <Item><ItemLink>51357</ItemLink></Item>
+
+      <Item><ItemLink>64945</ItemLink></Item>
+      <Item><ItemLink>64962</ItemLink></Item>
+      <Item><ItemLink>64963</ItemLink></Item>
+      <Item><ItemLink>64966</ItemLink></Item>
+
+      <Item><ItemLink>92874</ItemLink></Item>
+      <Item><ItemLink>92880</ItemLink></Item>
+
+      <Item><ItemLink>106640</ItemLink></Item>
+
+      <Item><ItemLink>106414</ItemLink></Item>
+    </ItemsPool>
+  </ModOp>
+
+  <ModOp Type="remove" GUID="83463" Path="/Values/RewardPool/ItemsPool"/>
+  <ModOp Type="merge" GUID="83463" Path="/Values/RewardPool">
+    <ItemsPool>
+      <Item><ItemLink>80189</ItemLink></Item>
+      <Item><ItemLink>106974</ItemLink></Item>
+      <Item><ItemLink>80502</ItemLink></Item>
+      <Item><ItemLink>80225</ItemLink></Item>
+      <Item><ItemLink>80510</ItemLink></Item>
+      <Item><ItemLink>79958</ItemLink></Item>
+      <Item><ItemLink>80221</ItemLink></Item>
+
+      <Item><ItemLink>106956</ItemLink></Item>
+      <Item><ItemLink>80677</ItemLink></Item>
+      <Item><ItemLink>79927</ItemLink></Item>
+      <Item><ItemLink>51280</ItemLink></Item>
+      <Item><ItemLink>107596</ItemLink></Item>
+      <Item><ItemLink>42046</ItemLink></Item>
+      <Item><ItemLink>80192</ItemLink></Item>
+
+      <Item><ItemLink>80192</ItemLink></Item>
+      <Item><ItemLink>107596</ItemLink></Item>
+      <Item><ItemLink>42046</ItemLink></Item>
+
+      <Item><ItemLink>80490</ItemLink></Item>
+
+      <Item><ItemLink>51288</ItemLink></Item>
+    </ItemsPool>
+  </ModOp>
+
+  <!-- Valeria -->
+  <ModOp Type="remove" GUID="83464" Path="/Values/RewardPool/ItemsPool"/>
+  <ModOp Type="merge" GUID="83464" Path="/Values/RewardPool">
+    <ItemsPool>
+      <Item><ItemLink>44191</ItemLink></Item>
+      <Item><ItemLink>71538</ItemLink></Item>
+      <Item><ItemLink>71540</ItemLink></Item>
+      <Item><ItemLink>71552</ItemLink></Item>
+      <Item><ItemLink>71554</ItemLink></Item>
+      <Item><ItemLink>106702</ItemLink></Item>
+      <Item><ItemLink>106708</ItemLink></Item>
+    </ItemsPool>
+  </ModOp>
+
+  <ModOp Type="remove" GUID="83465" Path="/Values/RewardPool/ItemsPool"/>
+  <ModOp Type="merge" GUID="83465" Path="/Values/RewardPool">
+    <ItemsPool>
+      <Item><ItemLink>44179</ItemLink></Item>
+      <Item><ItemLink>71544</ItemLink></Item>
+      <Item><ItemLink>42618</ItemLink></Item>
+      <Item><ItemLink>71542</ItemLink></Item>
+      <Item><ItemLink>71556</ItemLink></Item>
+      <Item><ItemLink>71558</ItemLink></Item>
+      <Item><ItemLink>106704</ItemLink></Item>
+      <Item><ItemLink>106710</ItemLink></Item>
+      <Item><ItemLink>106714</ItemLink></Item>
+    </ItemsPool>
+  </ModOp>
+
+  <ModOp Type="remove" GUID="83466" Path="/Values/RewardPool/ItemsPool"/>
+  <ModOp Type="merge" GUID="83466" Path="/Values/RewardPool">
+    <ItemsPool>
+      <Item><ItemLink>71562</ItemLink></Item>
+      <Item><ItemLink>71560</ItemLink></Item>
+      <Item><ItemLink>71533</ItemLink></Item>
+      <Item><ItemLink>44178</ItemLink></Item>
+      <Item><ItemLink>106712</ItemLink></Item>
+      <Item><ItemLink>71546</ItemLink></Item>
+    </ItemsPool>
+  </ModOp>
+
+  <ModOp Type="remove" GUID="83467" Path="/Values/RewardPool/ItemsPool"/>
+  <ModOp Type="merge" GUID="83467" Path="/Values/RewardPool">
+    <ItemsPool>
+      <Item><ItemLink>71550</ItemLink></Item>
+      <Item><ItemLink>42617</ItemLink></Item>
+      <Item><ItemLink>51284</ItemLink></Item>
+    </ItemsPool>
+  </ModOp>
+
+  <!-- Manx -->
+  <ModOp Type="remove" GUID="83476" Path="/Values/RewardPool/ItemsPool"/>
+  <ModOp Type="merge" GUID="83476" Path="/Values/RewardPool">
+    <ItemsPool>
+      <Item><ItemLink>51829</ItemLink></Item>
+      <Item><ItemLink>51831</ItemLink></Item>
+      <Item><ItemLink>51855</ItemLink></Item>
+
+      <Item><ItemLink>106634</ItemLink></Item>
+      <Item><ItemLink>106638</ItemLink></Item>
+
+      <Item><ItemLink>64949</ItemLink></Item>
+      <Item><ItemLink>64952</ItemLink></Item>
+      <Item><ItemLink>64953</ItemLink></Item>
+    </ItemsPool>
+  </ModOp>
+
+  <ModOp Type="remove" GUID="83477" Path="/Values/RewardPool/ItemsPool"/>
+  <ModOp Type="merge" GUID="83477" Path="/Values/RewardPool">
+    <ItemsPool>
+      <Item><ItemLink>51837</ItemLink></Item>
+      <Item><ItemLink>51839</ItemLink></Item>
+      <Item><ItemLink>51861</ItemLink></Item>
+      <Item><ItemLink>51863</ItemLink></Item>
+      <Item><ItemLink>51865</ItemLink></Item>
+
+      <Item><ItemLink>140344</ItemLink></Item>
+      <Item><ItemLink>140403</ItemLink></Item>
+      <Item><ItemLink>140405</ItemLink></Item>
+
+      <Item><ItemLink>92888</ItemLink></Item>
+      <Item><ItemLink>92882</ItemLink></Item>
+
+      <Item><ItemLink>106646</ItemLink></Item>
+      <Item><ItemLink>106650</ItemLink></Item>
+    </ItemsPool>
+  </ModOp>
+
+  <ModOp Type="remove" GUID="83478" Path="/Values/RewardPool/ItemsPool"/>
+  <ModOp Type="merge" GUID="83478" Path="/Values/RewardPool">
+    <ItemsPool>
+      <Item><ItemLink>44147</ItemLink></Item>
+      <Item><ItemLink>44116</ItemLink></Item>
+      <Item><ItemLink>44122</ItemLink></Item>
+      <Item><ItemLink>50287</ItemLink></Item>
+
+      <Item><ItemLink>51847</ItemLink></Item>
+      <Item><ItemLink>51871</ItemLink></Item>
+      <Item><ItemLink>51873</ItemLink></Item>
+      <Item><ItemLink>51885</ItemLink></Item>
+      <Item><ItemLink>51841</ItemLink></Item>
+      <Item><ItemLink>51869</ItemLink></Item>
+      <Item><ItemLink>51891</ItemLink></Item>
+      <Item><ItemLink>51893</ItemLink></Item>
+      <Item><ItemLink>51845</ItemLink></Item>
+
+      <Item><ItemLink>42045</ItemLink></Item>
+      <Item><ItemLink>42044</ItemLink></Item>
+
+      <Item><ItemLink>64961</ItemLink></Item>
+      <Item><ItemLink>64964</ItemLink></Item>
+      <Item><ItemLink>64965</ItemLink></Item>
+
+      <Item><ItemLink>92886</ItemLink></Item>
+      <Item><ItemLink>92890</ItemLink></Item>
+      <Item><ItemLink>92884</ItemLink></Item>
+
+      <Item><ItemLink>106642</ItemLink></Item>
+    </ItemsPool>
+  </ModOp>
+
+  <ModOp Type="remove" GUID="83479" Path="/Values/RewardPool/ItemsPool"/>
+  <ModOp Type="merge" GUID="83479" Path="/Values/RewardPool">
+    <ItemsPool>
+      <Item><ItemLink>80189</ItemLink></Item>
+      <Item><ItemLink>106974</ItemLink></Item>
+      <Item><ItemLink>80502</ItemLink></Item>
+      <Item><ItemLink>80225</ItemLink></Item>
+      <Item><ItemLink>80510</ItemLink></Item>
+      <Item><ItemLink>79958</ItemLink></Item>
+      <Item><ItemLink>80221</ItemLink></Item>
+
+      <Item><ItemLink>106956</ItemLink></Item>
+      <Item><ItemLink>80677</ItemLink></Item>
+      <Item><ItemLink>79927</ItemLink></Item>
+      <Item><ItemLink>51280</ItemLink></Item>
+      <Item><ItemLink>107596</ItemLink></Item>
+      <Item><ItemLink>42046</ItemLink></Item>
+      <Item><ItemLink>80192</ItemLink></Item>
+
+      <Item><ItemLink>80192</ItemLink></Item>
+      <Item><ItemLink>107596</ItemLink></Item>
+      <Item><ItemLink>42046</ItemLink></Item>
+
+      <Item><ItemLink>42053</ItemLink></Item>
+      <Item><ItemLink>42048</ItemLink></Item>
+    </ItemsPool>
+  </ModOp>
+
+  <Group Condition="#city-watch-specialist-rework-jtmzac">
+      <ModOp Type="merge" GUID="83476" Path="/Values/RewardPool">
+        <ItemsPool>
+          <Item><ItemLink>54009</ItemLink></Item>
+          <Item><ItemLink>54015</ItemLink></Item>
+          <Item><ItemLink>54021</ItemLink></Item>
+        </ItemsPool>
+      </ModOp>
+      <ModOp Type="merge" GUID="83477" Path="/Values/RewardPool">
+        <ItemsPool>
+          <Item><ItemLink>54011</ItemLink></Item>
+          <Item><ItemLink>54017</ItemLink></Item>
+          <Item><ItemLink>54023</ItemLink></Item>
+        </ItemsPool>
+      </ModOp>
+      <ModOp Type="merge" GUID="83478" Path="/Values/RewardPool">
+        <ItemsPool>
+          <Item><ItemLink>80494</ItemLink></Item>
+          <Item><ItemLink>42051</ItemLink></Item>
+          <Item><ItemLink>42052</ItemLink></Item>
+        </ItemsPool>
+      </ModOp>
+  </Group>
+
+
+
+  <!-- Procurator -->
+  <ModOp Type="remove" GUID="83472" Path="/Values/RewardPool/ItemsPool"/>
+  <ModOp Type="merge" GUID="83472" Path="/Values/RewardPool">
+    <ItemsPool>
+      <!-- land military -->
+      <Item><ItemLink>106731</ItemLink></Item>
+      <Item><ItemLink>106539</ItemLink></Item>
+      <Item><ItemLink>106549</ItemLink></Item>
+
+      <!-- sea military -->
+      <Item><ItemLink>71575</ItemLink></Item>
+      <Item><ItemLink>71523</ItemLink></Item>
+      <Item><ItemLink>71583</ItemLink></Item>
+      <Item><ItemLink>71529</ItemLink></Item>
+      <Item><ItemLink>71591</ItemLink></Item>
+      <Item><ItemLink>71531</ItemLink></Item>
+      <Item><ItemLink>71599</ItemLink></Item>
+    </ItemsPool>
+  </ModOp>
+
+  <ModOp Type="remove" GUID="83473" Path="/Values/RewardPool/ItemsPool"/>
+  <ModOp Type="merge" GUID="83473" Path="/Values/RewardPool">
+    <ItemsPool>
+      <!-- Land military -->
+      <Item><ItemLink>106736</ItemLink></Item>
+      <Item><ItemLink>106738</ItemLink></Item>
+      <Item><ItemLink>106740</ItemLink></Item>
+      <Item><ItemLink>106537</ItemLink></Item>
+      <Item><ItemLink>106541</ItemLink></Item>
+      <Item><ItemLink>106545</ItemLink></Item>
+      <Item><ItemLink>106547</ItemLink></Item>
+      <Item><ItemLink>106551</ItemLink></Item>
+
+      <!-- sea military -->
+      <Item><ItemLink>71569</ItemLink></Item>
+      <Item><ItemLink>71525</ItemLink></Item>
+      <Item><ItemLink>71517</ItemLink></Item>
+      <Item><ItemLink>71573</ItemLink></Item>
+      <Item><ItemLink>71581</ItemLink></Item>
+      <Item><ItemLink>71589</ItemLink></Item>
+      <Item><ItemLink>71597</ItemLink></Item>
+    </ItemsPool>
+  </ModOp>
+
+  <ModOp Type="remove" GUID="83474" Path="/Values/RewardPool/ItemsPool"/>
+  <ModOp Type="merge" GUID="83474" Path="/Values/RewardPool">
+    <ItemsPool>
+      <!-- Land military -->
+      <Item><ItemLink>106742</ItemLink></Item>
+      <Item><ItemLink>51278</ItemLink></Item>
+      <Item><ItemLink>42592</ItemLink></Item>
+      <Item><ItemLink>42598</ItemLink></Item>
+
+      <Item><ItemLink>106652</ItemLink></Item>
+      <Item><ItemLink>106654</ItemLink></Item>
+
+      <!-- sea military -->
+      <Item><ItemLink>71595</ItemLink></Item>
+      <Item><ItemLink>106706</ItemLink></Item>
+      <Item><ItemLink>71571</ItemLink></Item>
+      <Item><ItemLink>71579</ItemLink></Item>
+      <Item><ItemLink>71587</ItemLink></Item>
+      <Item><ItemLink>71519</ItemLink></Item>
+    </ItemsPool>
+  </ModOp>
+
+  <ModOp Type="remove" GUID="83475" Path="/Values/RewardPool/ItemsPool"/>
+  <ModOp Type="merge" GUID="83475" Path="/Values/RewardPool">
+    <ItemsPool>
+      <!-- Land military -->
+      <Item><ItemLink>107337</ItemLink></Item>
+      <Item><ItemLink>106841</ItemLink></Item>
+      <Item><ItemLink>80176</ItemLink></Item>
+      <Item><ItemLink>106543</ItemLink></Item>
+      <Item><ItemLink>80513</ItemLink></Item>
+
+      <!-- sea military -->
+      <Item><ItemLink>71585</ItemLink></Item>
+      <Item><ItemLink>71577</ItemLink></Item>
+      <Item><ItemLink>106979</ItemLink></Item>
+      <Item><ItemLink>107338</ItemLink></Item>
+      <Item><ItemLink>79631</ItemLink></Item>
+      <Item><ItemLink>42619</ItemLink></Item>
+      <Item><ItemLink>71527</ItemLink></Item>
+      <Item><ItemLink>71535</ItemLink></Item>
+      <Item><ItemLink>79629</ItemLink></Item>
+      <Item><ItemLink>42623</ItemLink></Item>
+    </ItemsPool>
+  </ModOp>
+
+
+</ModOps>
+
+

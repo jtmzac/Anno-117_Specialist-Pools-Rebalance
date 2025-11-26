@@ -1,0 +1,20 @@
+{
+  "Anno": 8,
+  "ModID": "specialist-pools-rebalance-jtmzac",
+  "Version": "1.0.0",
+  "Dependencies": {
+    "LoadAfter": [
+      "city-watch-specialist-rework-jtmzac"
+    ]
+  },
+  "Difficulty": "easier",
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModName": {
+    "English": "Specialist Pools Rebalance"
+  },
+  "Description": {
+    "English": "Changes the specialists that can be purchased at the four neutral traders in latium and albion. Various specialists have been removed and the remainder have been divided into more logical categories for each trader."
+  }
+}
