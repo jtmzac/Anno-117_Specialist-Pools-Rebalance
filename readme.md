@@ -19,9 +19,9 @@ If you use my other mod City Watch Specialist Rework they will be automatically 
 ## What specialists remain
 All captains and military land based specialists are still present but have been divided up between the Procurator and Valeria.
 
-The epic tier productivity and maintanence specialists have been kept as a 35% boost to productivity is quite notable and the worforce reduction start to make more sense when eques and patrician building use much greater amounts of workforce and upkeep.
+The epic tier productivity and maintanence specialists have been kept as a 35% boost to productivity is quite notable and the worforce reduction starts to make more sense when eques and patrician buildings use much greater amounts of workforce and upkeep.
 
-Basic residence bonuses for the main seven attributes income/belief/knowledge/prestige/fire safety/health/happiness. These are simple but effective even if you phase them out later in the game for more specialised buffs.
+Basic residence bonuses for the main seven attributes income/belief/knowledge/prestige/fire safety/health/happiness. These are simple but effective, even if you phase them out later in the game for more specialised buffs.
 
 Residence buffs for providing specific needs. These are quite powerful and are good at encouraging providing all needs to all residences.
 
@@ -50,9 +50,17 @@ Manx has all Albion goods based buffs along with the basic residence buffs for b
 
 If you use my other mod City Watch Specialist Rework, they will also be added into Manx's specialist pool.
 
+## Total Number of Specialists at each Trader
+|Trader|Amount|
+|Valiera|25|
+|The Procurator|50|
+|Diana|69|
+|Manx|59*|
+
+\* Manx has 68 if City Watch Specialist Rework is installed
 
 # Future Comaptibility
-This mod is not going to be useful in future unless it is manually updated with new pools and probably new traders.
+This mod is not going to be useful in future unless it is manually updated with new specialists and probably new traders.
 
 I spent hours identifying, extracting, categorising and then analysing and curating all these specialists manually and I cannot promise I will want to do that multiple times again in the future as updates and DLC is added.
 
