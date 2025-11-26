@@ -10,7 +10,7 @@ Diana and Manx provide all the other specialists largely divided by region to mi
 ## What specialists have been Removed
 The entire category of area buffs such as all bakeries in range of the specialist apply +1 fire safety to all buildings in range. These buffs mostly conflict with the main game design goal of spreading your production throughout a city and only really make sense for intermediate production zones. They're still very questionable value so have been entirely removed.
 
-The common and rare productivity and maintanence specialists. This may be a bit more contentious, but from my perspective these are quite low value due to the productivity bonus being only 10/20% and the maintanence bonuses only applying to the lowest tiers of workers. The issue with this is that buildings that use tier 1 and 2 workers tend to only use a few workers, so a -35% buff makes such a small difference that it doesn't seem worth it. The productivity bonuses are also heavily diluted because the game encourages you to use the massive bonuses from religion and aqueducts instead.
+The common and rare productivity and maintenance specialists. This may be a bit more contentious, but from my perspective these are quite low value due to the productivity bonus being only 10/20% and the maintenance bonuses only applying to the lowest tiers of workers. The issue with this is that buildings that use tier 1 and 2 workers tend to only use a few workers, so a -35% buff makes such a small difference that it doesn't seem worth it. The productivity bonuses are also heavily diluted because the game encourages you to use the massive bonuses from religion and aqueducts instead.
 
 The city watch specialists have been removed as the limitation of only affecting their respective buildings within range of the villa/officium makes them nearly useless.
 
@@ -19,7 +19,7 @@ If you use my other mod City Watch Specialist Rework they will be automatically 
 ## What specialists remain
 All captains and military land based specialists are still present but have been divided up between the Procurator and Valeria.
 
-The epic tier productivity and maintanence specialists have been kept as a 35% boost to productivity is quite notable and the worforce reduction starts to make more sense when eques and patrician buildings use much greater amounts of workforce and upkeep.
+The epic tier productivity and maintenance specialists have been kept as a 35% boost to productivity is quite notable and the workforce reduction starts to make more sense when eques and patrician buildings use much greater amounts of workforce and upkeep.
 
 Basic residence bonuses for the main seven attributes income/belief/knowledge/prestige/fire safety/health/happiness. These are simple but effective, even if you phase them out later in the game for more specialised buffs.
 
