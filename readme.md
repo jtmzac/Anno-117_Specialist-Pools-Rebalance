@@ -14,8 +14,6 @@ The common and rare productivity and maintenance specialists. This may be a bit 
 
 The city watch specialists have been removed as the limitation of only affecting their respective buildings within range of the villa/officium makes them nearly useless.
 
-If you use my other mod City Watch Specialist Rework they will be automatically added back into Manx's specialist pool.
-
 ## What specialists remain
 All captains and military land based specialists are still present but have been divided up between the Procurator and Valeria.
 
@@ -59,6 +57,12 @@ If you use my other mod City Watch Specialist Rework, they will also be added in
 |Manx|59*|
 
 \* Manx has 68 if City Watch Specialist Rework is installed
+
+# Extra Compatibility with City Watch Specialist Rework
+If City Watch Specialist Rework is installed then the 9 city watch specialists will be automatically added back into Manx's specialist pool.
+
+Note that compatibility is based on the mod folder being installed and NOT what is activated in your active-profile.txt.
+
 
 # Future Compatibility
 This mod is not going to be useful in future unless it is manually updated with new specialists and probably new traders.
