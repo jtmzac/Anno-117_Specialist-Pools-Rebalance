@@ -1,7 +1,7 @@
 {
   "Anno": 8,
   "ModID": "specialist-pools-rebalance-jtmzac",
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "Dependencies": {
     "LoadAfter": [
       "city-watch-specialist-rework-jtmzac"

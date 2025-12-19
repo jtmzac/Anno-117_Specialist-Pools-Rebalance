@@ -284,17 +284,17 @@ All ship and military items remain available -->
   </ModOp>
 
   <Group Condition="#city-watch-specialist-rework-jtmzac">
-      <ModOp Append="@83476/RewardPool/ItemsPool">
+      <ModOp Add="@83476/RewardPool/ItemsPool">
         <Item><ItemLink>54009</ItemLink></Item>
         <Item><ItemLink>54015</ItemLink></Item>
         <Item><ItemLink>54021</ItemLink></Item>
       </ModOp>
-      <ModOp Append="@83477/RewardPool/ItemsPool">
+      <ModOp Add="@83477/RewardPool/ItemsPool">
         <Item><ItemLink>54011</ItemLink></Item>
         <Item><ItemLink>54017</ItemLink></Item>
         <Item><ItemLink>54023</ItemLink></Item>
       </ModOp>
-      <ModOp Append="@83478/RewardPool/ItemsPool">
+      <ModOp Add="@83478/RewardPool/ItemsPool">
         <Item><ItemLink>80494</ItemLink></Item>
         <Item><ItemLink>42051</ItemLink></Item>
         <Item><ItemLink>42052</ItemLink></Item>
