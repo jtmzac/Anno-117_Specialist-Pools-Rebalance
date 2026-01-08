@@ -1,0 +1,34 @@
+<ModOps>
+
+    <!-- Diana - 5 items -->
+    <ModOp Add="@83461/RewardPool/ItemsPool">
+        <Item><ItemLink>44112</ItemLink></Item>
+        <Item><ItemLink>50289</ItemLink></Item>
+        <Item><ItemLink>50291</ItemLink></Item>
+
+        <Item><ItemLink>44118</ItemLink></Item>
+        <Item><ItemLink>44143</ItemLink></Item>
+    </ModOp>
+
+    <!-- Manx - 12 items -->
+    <ModOp Add="@83477/RewardPool/ItemsPool">
+        <Item><ItemLink>44112</ItemLink></Item>
+        <Item><ItemLink>50289</ItemLink></Item>
+        <Item><ItemLink>50291</ItemLink></Item>
+
+        <Item><ItemLink>44113</ItemLink></Item>
+        <Item><ItemLink>44119</ItemLink></Item>
+
+        <Item><ItemLink>44082</ItemLink></Item>
+        <Item><ItemLink>44087</ItemLink></Item>
+        <Item><ItemLink>44121</ItemLink></Item>
+
+        <Item><ItemLink>44081</ItemLink></Item>
+        <Item><ItemLink>50665</ItemLink></Item>
+        <Item><ItemLink>44148</ItemLink></Item>
+        <Item><ItemLink>44088</ItemLink></Item>
+    </ModOp>
+
+</ModOps>
+
+

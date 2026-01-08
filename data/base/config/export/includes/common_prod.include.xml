@@ -1,0 +1,40 @@
+<ModOps>
+
+    <!-- Diana - 13 items -->
+    <ModOp Add="@83460/RewardPool/ItemsPool">
+        <Item><ItemLink>44083</ItemLink></Item>
+        <Item><ItemLink>44080</ItemLink></Item>
+        <Item><ItemLink>44139</ItemLink></Item>
+        <Item><ItemLink>44078</ItemLink></Item>
+        <Item><ItemLink>44079</ItemLink></Item>
+
+        <Item><ItemLink>44075</ItemLink></Item>
+        <Item><ItemLink>44076</ItemLink></Item>
+        <Item><ItemLink>44144</ItemLink></Item>
+
+        <Item><ItemLink>44085</ItemLink></Item>
+        <Item><ItemLink>44086</ItemLink></Item>
+        <Item><ItemLink>44142</ItemLink></Item>
+        <Item><ItemLink>44141</ItemLink></Item>
+        <Item><ItemLink>44115</ItemLink></Item>
+    </ModOp>
+
+    <!-- Manx - 10 items -->
+    <ModOp Add="@83476/RewardPool/ItemsPool">
+        <Item><ItemLink>44083</ItemLink></Item>
+        <Item><ItemLink>44080</ItemLink></Item>
+        <Item><ItemLink>44139</ItemLink></Item>
+        <Item><ItemLink>44078</ItemLink></Item>
+        <Item><ItemLink>44079</ItemLink></Item>
+
+        <Item><ItemLink>44145</ItemLink></Item>
+        <Item><ItemLink>44077</ItemLink></Item>
+        <Item><ItemLink>44140</ItemLink></Item>
+
+        <Item><ItemLink>44146</ItemLink></Item>
+        <Item><ItemLink>44117</ItemLink></Item>
+    </ModOp>
+
+</ModOps>
+
+

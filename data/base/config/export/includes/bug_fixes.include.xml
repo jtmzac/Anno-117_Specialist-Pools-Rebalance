@@ -1,0 +1,120 @@
+<ModOps>
+
+    <!-- Amphorae -->
+    <ModOp Add="@50589/AssetPool/AssetList"  Condition="!@50589/AssetPool/AssetList/Item[Asset = '55962']">
+        <Item><Asset>55962</Asset></Item>
+    </ModOp>
+    <ModOp Add="@50589/AssetPool/AssetList"  Condition="!@50589/AssetPool/AssetList/Item[Asset = '5848']">
+        <Item><Asset>5848</Asset></Item>
+    </ModOp>
+    <ModOp Add="@50589/AssetPool/AssetList"  Condition="!@50589/AssetPool/AssetList/Item[Asset = '31761']">
+        <Item><Asset>31761</Asset></Item>
+    </ModOp>
+
+    <!-- Sandals -->
+    <ModOp Add="@50574/AssetPool/AssetList" Condition="!@50574/AssetPool/AssetList/Item[Asset = '2957']">
+        <Item><Asset>2957</Asset></Item>
+    </ModOp>
+    <ModOp Add="@50574/AssetPool/AssetList" Condition="!@50574/AssetPool/AssetList/Item[Asset = '5974']">
+        <Item><Asset>5974</Asset></Item>
+    </ModOp>
+    <ModOp Add="@50574/AssetPool/AssetList" Condition="!@50574/AssetPool/AssetList/Item[Asset = '5976']">
+        <Item><Asset>5976</Asset></Item>
+    </ModOp>
+
+    <!-- Pileus Hats -->
+    <ModOp Add="@50594/AssetPool/AssetList" Condition="!@50594/AssetPool/AssetList/Item[Asset = '5973']">
+        <Item><Asset>5973</Asset></Item>
+    </ModOp>
+
+    <!-- Writing Tablets -->
+    <ModOp Add="@50581/AssetPool/AssetList" Condition="!@50581/AssetPool/AssetList/Item[Asset = '8427']">
+        <Item><Asset>8427</Asset></Item>
+    </ModOp>
+
+    <!-- Torcs -->
+    <ModOp Remove="@50583/AssetPool/AssetList/Item[Asset = '5470']" Condition="@50583/AssetPool/AssetList/Item[Asset = '5470']"></ModOp>
+    <ModOp Remove="@50583/AssetPool/AssetList/Item[Asset = '5291']" Condition="@50583/AssetPool/AssetList/Item[Asset = '5291']"></ModOp>
+    <ModOp Add="@50583/AssetPool/AssetList" Condition="!@50583/AssetPool/AssetList/Item[Asset = '5290']">
+        <Item><Asset>5290</Asset></Item>
+    </ModOp>
+
+    <!-- Armour -->
+    <ModOp Add="@50621/AssetPool/AssetList" Condition="!@50621/AssetPool/AssetList/Item[Asset = '5976']">
+        <Item><Asset>5976</Asset></Item>
+    </ModOp>
+
+    <!-- Wigs -->
+    <ModOp Add="@50585/AssetPool/AssetList" Condition="!@50585/AssetPool/AssetList/Item[Asset = '31761']">
+        <Item><Asset>31761</Asset></Item>
+    </ModOp>
+    <ModOp Add="@50585/AssetPool/AssetList" Condition="!@50585/AssetPool/AssetList/Item[Asset = '31752']">
+        <Item><Asset>31752</Asset></Item>
+    </ModOp>
+    <ModOp Add="@50585/AssetPool/AssetList" Condition="!@50585/AssetPool/AssetList/Item[Asset = '2794']">
+        <Item><Asset>2794</Asset></Item>
+    </ModOp>
+    <ModOp Add="@50585/AssetPool/AssetList" Condition="!@50585/AssetPool/AssetList/Item[Asset = '2669']">
+        <Item><Asset>2669</Asset></Item>
+    </ModOp>
+
+    <!-- Trousers -->
+    <ModOp Add="@50575/AssetPool/AssetList" Condition="!@50575/AssetPool/AssetList/Item[Asset = '2786']">
+        <Item><Asset>2786</Asset></Item>
+    </ModOp>
+
+    <!-- Clan Shields -->
+    <ModOp Add="@50587/AssetPool/AssetList" Condition="!@50587/AssetPool/AssetList/Item[Asset = '5290']">
+        <Item><Asset>5290</Asset></Item>
+    </ModOp>
+
+    <!-- Cloaks -->
+    <ModOp Add="@50631/AssetPool/AssetList" Condition="!@50631/AssetPool/AssetList/Item[Asset = '5290']">
+        <Item><Asset>5290</Asset></Item>
+    </ModOp>
+
+    <!-- Chariots -->
+    <ModOp Add="@50576/AssetPool/AssetList" Condition="!@50576/AssetPool/AssetList/Item[Asset = '5849']">
+        <Item><Asset>5849</Asset></Item>
+    </ModOp>
+
+    <!-- Necklaces -->
+    <ModOp Add="@50577/AssetPool/AssetList" Condition="!@50577/AssetPool/AssetList/Item[Asset = '50280']">
+        <Item><Asset>50280</Asset></Item>
+    </ModOp>
+
+    <!-- Loungers -->
+    <ModOp Remove="@50599/AssetPool/AssetList/Item[Asset = '2786']" Condition="@50599/AssetPool/AssetList/Item[Asset = '2786']"></ModOp>
+    <ModOp Add="@50599/AssetPool/AssetList" Condition="!@50599/AssetPool/AssetList/Item[Asset = '5971']">
+        <Item><Asset>5971</Asset></Item>
+    </ModOp>
+    <ModOp Add="@50599/AssetPool/AssetList" Condition="!@50599/AssetPool/AssetList/Item[Asset = '8580']">
+        <Item><Asset>8580</Asset></Item>
+    </ModOp>
+    <ModOp Add="@50599/AssetPool/AssetList" Condition="!@50599/AssetPool/AssetList/Item[Asset = '2999']">
+        <Item><Asset>2999</Asset></Item>
+    </ModOp>
+
+    <!-- Lyres -->
+    <ModOp Add="@50580/AssetPool/AssetList" Condition="!@50580/AssetPool/AssetList/Item[Asset = '5973']">
+        <Item><Asset>5973</Asset></Item>
+    </ModOp>
+    <ModOp Add="@50580/AssetPool/AssetList" Condition="!@50580/AssetPool/AssetList/Item[Asset = '31755']">
+        <Item><Asset>31755</Asset></Item>
+    </ModOp>
+    <ModOp Add="@50580/AssetPool/AssetList" Condition="!@50580/AssetPool/AssetList/Item[Asset = '31753']">
+        <Item><Asset>31753</Asset></Item>
+    </ModOp>
+    <ModOp Add="@50580/AssetPool/AssetList" Condition="!@50580/AssetPool/AssetList/Item[Asset = '50280']">
+        <Item><Asset>50280</Asset></Item>
+    </ModOp>
+
+    <!-- Sausages -->
+    <ModOp Add="@50597/AssetPool/AssetList" Condition="!@50597/AssetPool/AssetList/Item[Asset = '2793']">
+        <Item><Asset>2793</Asset></Item>
+    </ModOp>
+
+
+</ModOps>
+
+
